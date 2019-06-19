@@ -1,28 +1,167 @@
-body{
 
-}
-
-
-
-.row {
-height: 100px;
+.header{
+background-color: red;
+color: white;
 display: flex;
-flex-direction: 
+font-family: Arial, Helvetica, sans-serif;
+justify-content: center;
 }
-
-div .globo{
-background-image: url(images/globo.png);
- background-color: blue;
-
-
-}
-
-div .avion{
-background-color: blueviolet;
+a {
+color: white;
+display: flex;
 
 }
 
-div .barco{
+.jumbotron {
 
-    background-color: brown;
+background-image: url(../css/images/gua.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 50vh;
+width: 100vw;
+color: white;
+background-position: center fixed;
+text-decoration: solid;
+
+}
+
+h2 {
+font-size: 25px;
+text-align: center
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grip{
+
+  height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container {
+display: flex;
+height: 150px;
+justify-content: space-evenly;
+}
+
+
+
+
+.globo{
+background-image: url(../css/images/globo.png);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100px;
+width: 100px;
+
+}
+
+ .avion{
+
+background-image: url(../css/images/avion.png);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100px;
+width: 100px;
+
+}
+
+.barco{
+
+   
+    background-image: url(../css/images/barco.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+.grip{
+
+  height: 500px;
+}
+
+
+.destinos {
+
+  display:flex;
+
+  height: 500px;
+
+justify-content:space-evenly;
+}
+
+.cdmx  {
+background-size: 50%;
+background-repeat: no-repeat;
+height: 420px;
+width: 300px;
+padding: 13px;
+border-radius: 2px;
+border: 0.5px solid gray;
+}
+
+.cdmx a{
+  background-color:purple;
+}
+.guanajuato a{
+  background-color: purple;
+}
+.cancun a{
+  background-color: purple;
+}
+.guanajuato{
+  background-size: 10%;
+  background-repeat: no-repeat;
+  height: 420px;
+  width: 300px;
+  padding: 13px;
+  border-radius: 2px;
+  border: 0.5px solid gray;
+
+
+}
+
+.destinos img  {
+  height: 150px;
+  width: 270px;
+  align-content: center;
+  border-radius: 2px;
+  
+}
+
+
+.cancun{
+  background-size: 10%;
+  background-repeat: no-repeat;
+  height: 420px;
+  width: 300px;
+  padding: 13px;
+  border-radius: 2px;
+  border: 0.5px solid gray;
+
+}
+
+.carrusel {
+
 }
