@@ -1,0 +1,28 @@
+body{
+
+}
+
+
+
+.row {
+height: 100px;
+display: flex;
+flex-direction: 
+}
+
+div .globo{
+background-image: url(images/globo.png);
+ background-color: blue;
+
+
+}
+
+div .avion{
+background-color: blueviolet;
+
+}
+
+div .barco{
+
+    background-color: brown;
+}
